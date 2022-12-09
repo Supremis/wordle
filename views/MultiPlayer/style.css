@@ -1,0 +1,75 @@
+h2 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+#alert_placeholder {
+    height: 10px;
+}
+
+#menu {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+#battle {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#status {
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin: 0 auto;
+}
+
+.box {
+    width: 110px;
+    height: 110px;
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: none;
+    padding: 20px;
+    text-align: center;
+    transform: rotate(-270deg);
+}
+
+.current {
+    background-color: #F9F9E0 !important;
+}
+
+.tiles-player, .tiles-opponent {
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    transform: rotate(270deg);
+}
+
+.col-md-1 {
+    margin: 20%;
+}

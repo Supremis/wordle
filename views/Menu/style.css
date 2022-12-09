@@ -1,0 +1,10 @@
+body {
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+#options {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.8",
+    "nodemon": "^2.0.16",
+    "wordlist-english": "^1.2.1",
+    "ws": "^8.8.0"
+  }
+}
